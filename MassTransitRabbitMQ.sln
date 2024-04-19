@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitRabbitMQPublisher", "MassTransitRabbitMQPublisher\MassTransitRabbitMQPublisher.csproj", "{CCD1A3F1-1161-4806-A575-EB8F2E95FFDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitRabbitMQShared", "MassTransitRabbitMQShared\MassTransitRabbitMQShared.csproj", "{34787A58-FE59-4C74-99B3-1F0B2BFF91ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransitRabbitMQConsumer", "MassTransitRabbitMQConsumer\MassTransitRabbitMQConsumer.csproj", "{77C6A863-B84C-42CE-ABA7-6CAFD99DC1C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCD1A3F1-1161-4806-A575-EB8F2E95FFDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCD1A3F1-1161-4806-A575-EB8F2E95FFDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCD1A3F1-1161-4806-A575-EB8F2E95FFDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCD1A3F1-1161-4806-A575-EB8F2E95FFDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34787A58-FE59-4C74-99B3-1F0B2BFF91ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34787A58-FE59-4C74-99B3-1F0B2BFF91ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34787A58-FE59-4C74-99B3-1F0B2BFF91ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34787A58-FE59-4C74-99B3-1F0B2BFF91ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C6A863-B84C-42CE-ABA7-6CAFD99DC1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C6A863-B84C-42CE-ABA7-6CAFD99DC1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C6A863-B84C-42CE-ABA7-6CAFD99DC1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C6A863-B84C-42CE-ABA7-6CAFD99DC1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

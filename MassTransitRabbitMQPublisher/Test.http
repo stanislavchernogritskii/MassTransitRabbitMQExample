@@ -1,0 +1,9 @@
+@DotnetOutboxPattern_HostAddress = http://localhost:5000
+
+POST {{DotnetOutboxPattern_HostAddress}}/posts
+Content-Type: application/json
+
+{
+  "Title": "Example Title",
+  "Content": "Example content text"
+}
