@@ -1,7 +1,5 @@
 # MassTransit .NET 8 + RabbitMQ Example
 
-# MassTransit .NET 8 + RabbitMQ Example
-
 This is a simple example of using MassTransit with RabbitMQ in a .NET 8 application. The project is structured into three main components: a message publisher, a message consumer, and a shared library.
 
 The `MassTransitRabbitMQPublisher` application serves as the message publisher. It exposes an API endpoint that allows for the publishing of messages to a RabbitMQ queue. Additionally, it handles the storage of data in a PostgreSQL database.
