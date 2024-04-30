@@ -22,7 +22,13 @@ This project demonstrates a basic use case of a distributed system using message
 docker-compose up -d
 ```
 
-2. Run the application:
+2. Create the initial database schema:
+
+```bash
+dotnet ef database update
+```
+
+3. Run the application:
 
 ```bash
 dotnet run --project MassTransitRabbitMQConsumer/MassTransitRabbitMQConsumer.csproj

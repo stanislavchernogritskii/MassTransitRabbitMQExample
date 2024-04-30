@@ -1,9 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
-using Microsoft.Extensions.Hosting;
 using MassTransit;
 using MassTransitRabbitMQPublisher;
 using MassTransitRabbitMQShared;
@@ -43,4 +37,3 @@ app.Run();
 
 // docker compose up -d
 // dotnet ef database update
-// multiple services, each of them could be publisher/consumer
