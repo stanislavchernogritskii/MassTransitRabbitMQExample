@@ -34,6 +34,3 @@ app.MapPost("/posts", async (AppDbContext dbContext, Post post, IBus bus) =>
 });
 
 app.Run();
-
-// docker compose up -d
-// dotnet ef database update
